@@ -12,9 +12,9 @@
 ### Тест случаи според критериумот Every path
 ![multiplecondition](https://github.com/user-attachments/assets/3904536a-19fb-4d10-9d45-275c80c7ff85)
 
-### Објаснување на напишаните unit tests
+## Објаснување на напишаните unit tests
 
-1. testEveryStatement()
+### testEveryStatement()
 Овој тест се користи за Statement Coverage (покриеност на секоја линија) во функцијата checkCart.
 
 Test 1: allItems = null
@@ -34,7 +34,7 @@ double result = SILab2.checkCart(List.of(item3), "1234567890123456");
 Очекува пресметана цена 370.0.
 Овој тест помага да се потврди дека пресметката е точна за нормален случај.
 
-2. testMultipleCondition()
+### testMultipleCondition()
 Овој тест се користи за Multiple Condition Coverage, т.е. да се покријат сите можни комбинации на три логички услови во еден if.
 if (item.getPrice() > 300 && item.getDiscount() > 0 && item.getQuantity() > 10)
     sum -= 30;
